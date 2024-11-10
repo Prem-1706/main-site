@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:/Users/Home/Downloads/water-plant-growth_1200x.webp');
+    background-size: cover; /* Ensure the image covers the whole background */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make the background fixed when scrolling */
+    color: #333;
+}
+
+header {
+    background-color: rgba(45, 106, 79, 0.7); /* Semi-transparent background for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #1a4d38;
+}
+
+/* Hidden content */
+.hidden {
+    display: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive images */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Content for effects section */
+.effect {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.effect-img {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+h2, h3 {
+    color: #2d6a4f;
+}
+
+/* List of practical advice */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+li {
+    margin: 10px 0;
+}
